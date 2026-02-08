@@ -1,0 +1,47 @@
+{
+  "name": "sefirotic-orchestrator",
+  "version": "0.3.0",
+  "author": "nadalpiantini",
+  "description": "A decision-making framework based on the Tree of Life topology. Routes tasks through 10 sefirot across 3 pillars and 4 worlds.",
+  "tags": [
+    "orchestration",
+    "kabbalah",
+    "decision-framework",
+    "agent-routing",
+    "complexity-scoring",
+    "security"
+  ],
+  "emoji": "🌳",
+  "requires": [
+    "typescript",
+    "node >= 18"
+  ],
+  "features": [
+    "dual-path-execution",
+    "mental-model-option",
+    "shield-security",
+    "skill-matching",
+    "memory-persistence",
+    "bilingual-support"
+  ],
+  "paths": {
+    "fast": "⚡ Quick response for simple tasks",
+    "graph": "🌳 Full tree traversal for complex tasks",
+    "abort": "🛡️ Security block for threats",
+    "consultation": "💬 Analysis without execution (v0.3)",
+    "mental": "🧠 Cognitive framework without script"
+  },
+  "sefirot": {
+    "keter": "Intent Classification",
+    "chokmah": "Creative Expansion",
+    "binah": "Analytical Restriction",
+    "daat": "Hot Context Cache",
+    "chesed": "Skill Expansion",
+    "gevurah": "Security Gate",
+    "tiferet": "Central Orchestrator",
+    "netzach": "Proactive Actions",
+    "hod": "Structured Output",
+    "yesod": "Memory/Persistence",
+    "malkuth": "Channel Delivery"
+  }
+}

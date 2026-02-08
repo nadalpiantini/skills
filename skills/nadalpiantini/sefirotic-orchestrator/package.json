@@ -1,0 +1,38 @@
+{
+  "name": "sefirotic-orchestrator",
+  "version": "0.3.0",
+  "description": "A decision-making framework based on the Tree of Life topology",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "bin": {
+    "sefirotic": "./run-demo.ts"
+  },
+  "scripts": {
+    "demo": "npx tsx run-demo.ts",
+    "test": "npx tsx run-demo.ts --test",
+    "tree": "npx tsx run-demo.ts --tree",
+    "paths": "npx tsx run-demo.ts --paths",
+    "stats": "npx tsx run-demo.ts --stats",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "openclaw",
+    "orchestrator",
+    "kabbalah",
+    "tree-of-life",
+    "decision-framework",
+    "agent-routing"
+  ],
+  "author": "nadalpiantini",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
